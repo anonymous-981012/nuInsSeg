@@ -4,12 +4,11 @@ provide comprehensive information for nuInsSeg dataset
 
 ## 1.Introduction
 Through investigation, we found that although existing large-scale autonomous driving datasets provide multi-modal data, they lack multi-modal and consistent annotations.
-So on the basis of the nuScenes dataset, we supplement the image instance segmentation annotation, and call it nuInsSeg.
-As far as we know, this is the first one that contains both: LiDAR point cloud, RGB image,
-Open source autonomous driving datasets with manual 2D annotations (2D detection boxes, 2D instance segmentation), 3D annotations (3D detection boxes...), and these 2D and 3D annotations have instance-level consistency.
-Added 947,072 2D annotations (box detection and instance segmentation) to the 204,894 images in the nuScenes-trainval data.
+So based on the nuScenes dataset, we supplement the image instance segmentation annotation, and call it nuInsSeg.
+As far as we know, this is the first Open source autonomous driving dataset that contains both: LiDAR point cloud, RGB image, manual 2D annotations (2D detection boxes, 2D instance segmentation) and 3D annotations (3D detection boxes...). Also these 2D and 3D annotations have instance-level consistency.
+Totally, 947,072 2D annotations (box detection and instance segmentation) are added to the 204,894 images in the nuScenes-trainval data.
 
-It is hoped that nuInsSeg can help researchers to better study large-scale autonomous driving scenarios, especially from the perspective of multimodal sensor fusion.
+We hope that nuInsSeg can help researchers better study large-scale autonomous driving scenarios, especially from the perspective of multimodal sensor fusion.
 
 ## 2.Statistics
 The nuScenes training and validation dataset contains 1,166,187 3D detection box annotations, but because many objects are occluded or unclear in the camera's line of sight, the corresponding 2D annotations will be less.
@@ -85,4 +84,4 @@ Here we provide the download link of the nuInsSeg dataset.
    - release once paper is accepted
 
 ## 6.Acknowledgement
-It is stated here that we only add the annotation of instance segmentation on the basis of the nuscenes dataset, in order to better conduct research on multimodal perception for researchers. Many thanks to nuscnes for contributions to open source data.
+It is stated here that we only added the annotation of instance segmentation on the basis of the nuscenes dataset, in order to better conduct research on multimodal perception for researchers. Many thanks to nuscenes for contributions to open source data.
