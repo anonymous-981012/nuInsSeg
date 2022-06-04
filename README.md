@@ -1,6 +1,6 @@
 # nuInsSeg
 provide comprehensive information for nuInsSeg dataset
-![nuInsSeg instance segmentation annotaion demo](evaluation-demo/demo2.gif)
+![nuInsSeg instance segmentation annotaion demo](evaluation-demo/n008-2018-08-01-15-16-36-0400__CAM_BACK_LEFT__1533151423047405.jpg)
 
 ## 1.Introduction
 Through investigation, we found that although existing large-scale autonomous driving datasets provide multi-modal data, they lack multi-modal and consistent annotations.
